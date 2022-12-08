@@ -1,0 +1,48 @@
+.common__section{
+    background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.297)),url("/src/assets/img/bg-coomon-section.jpg") no-repeat center ;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.common__section h2{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 4px rgba(14, 13, 13, 0.418);
+}
+.common__section p{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 0px 0px 4px rgba(14, 13, 13, 0.492);
+}
+
+@media screen and (max-width:768px) {
+    .common__section h2{
+        font-size: 3rem;
+
+    }
+    .common__section p{
+        font-size: 1.6rem;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .common__section h2{
+        font-size: 2.2rem;
+        padding: 0 10px;
+
+    }
+    .common__section p{
+        font-size: 1.7rem;
+
+    }
+}

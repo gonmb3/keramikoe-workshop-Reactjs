@@ -1,0 +1,47 @@
+
+
+/*BTN EFFECT*/
+.btn-slide-left {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .btn-slide-left:hover {
+    color: #fff; 
+  }
+  .btn-slide-left::after {
+    content: "";
+    border-bottom:1.3px solid rgb(235, 178, 34); 
+    position: absolute;
+    z-index: -1;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .btn-slide-left:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+  .logo{
+    z-index: 9999!important;
+  }
+  
+
+  @media screen and (max-width:370px) {
+    .logo{
+      font-size: 20px!important;
+    }
+    .li_nav{
+      font-size: 15px!important;
+    }
+  }

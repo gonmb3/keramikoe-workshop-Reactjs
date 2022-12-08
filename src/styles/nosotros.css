@@ -1,0 +1,13 @@
+
+.keramikoe__img{
+    object-fit: contain!important;
+}
+
+@media screen and (max-width:986px){
+    #nosotros{
+     flex-direction: column;
+     justify-content: space-evenly;
+     gap: 0;
+     width: 100%;
+    }
+}

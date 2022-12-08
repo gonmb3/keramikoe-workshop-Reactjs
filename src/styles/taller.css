@@ -1,0 +1,7 @@
+
+
+@media screen and (max-width:986px){
+    #taller{
+     flex-direction: column-reverse;
+    }
+}
