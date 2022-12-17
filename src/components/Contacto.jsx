@@ -32,20 +32,13 @@ const Contacto = () => {
                         <p className="flex items center text-[14px]  text-gray-400 "> <GiSmartphone className="mr-2" size={19} /> 077 777 877 </p>
                     </div>
 
-
-
-                    {/*---------CONTACT FORM COMPONENT START  */}
-                    <FormularioContacto />
-                    {/*---------CONTACT FORM COMPONENT END  */}
-
+                    {/*---------CONTACT FORM COMPONENT   */}
+                    <FormularioContacto />               
                 </div>
-
             </div>
 
-            {/*------MAP COMPONENT START*/}
-            <Map />
-            {/*MAP COMPONENT END ------- */}
-
+            {/*------MAP COMPONENT */}
+            <Map />           
         </section>
     )
 }

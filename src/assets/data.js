@@ -1,3 +1,4 @@
+// gallery data images
 import GalleryImg1 from './img/1.jpg';
 import GalleryImg2 from './img/2.jpg';
 import GalleryImg3 from './img/3.jpg';
@@ -11,8 +12,20 @@ import GalleryImg10 from './img/10.jpg';
 import GalleryImg11 from './img/11.jpg';
 import GalleryImg12 from './img/12.jpg';
 
+// taller data image
+import tallerImg from "../assets/img/Talleres.jpg"
 
 
+export const nosotrosData = [
+    {
+        titleOne: "Nuestra",
+        titleTwo: "Historia",
+        textOne: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
+        textTwo: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
+        textThree: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
+        textFour: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
+    }
+]
 
 
 const imagesData = [
@@ -92,6 +105,22 @@ export const navData = [
         text : "Contacto"
     },
 ]
+
+
+export const tallerData = [
+    {
+        titleOne: "Clases de Cerámica",
+        titleTwo: "Moldeada y Alfafería",
+        img: tallerImg,
+        textOne: "Lorem ipsum dolor sit, amet conse",
+        textTwo: "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisig.",
+        textThree: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetu.",
+       
+    }
+]
+
+
+
 
 
 export default imagesData
