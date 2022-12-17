@@ -1,5 +1,5 @@
-import Map from './Map';    /*component*/
-import FormularioContacto from './FormularioContacto';  /*component*/
+import Map from '../components/Map';    /*component*/
+import FormularioContacto from '../components/FormularioContacto';  /*component*/
 
 import { GiSmartphone } from "react-icons/gi"  /*react icon*/
 import { FiMail } from "react-icons/fi"  /*react icon*/

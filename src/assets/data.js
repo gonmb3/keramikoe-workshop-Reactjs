@@ -11,9 +11,11 @@ import GalleryImg9 from './img/9.jpg';
 import GalleryImg10 from './img/10.jpg';
 import GalleryImg11 from './img/11.jpg';
 import GalleryImg12 from './img/12.jpg';
-
 // taller data image
 import tallerImg from "../assets/img/Talleres.jpg"
+
+
+
 
 
 export const nosotrosData = [
