@@ -12,7 +12,7 @@ const Taller = () => {
                     <div
                         className="lg:w-4/6 w-full ">
                             {/* image */}
-                        <img src={text.img} alt="sad" className="lg:w-[90%] md:h-[400px] w-full h-[350px] rounded-md object-cover" />
+                        <img loading='lazy' src={text.img} alt="talleres-img" className="lg:w-[90%] md:h-[400px] w-full h-[350px] rounded-md object-cover" />
                     </div>
 
                     <div

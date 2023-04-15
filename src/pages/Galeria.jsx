@@ -45,7 +45,7 @@ const Ventas = () => {
               <div 
               key={img.id} className="col relative  m-2">
 
-                <img src={img.image} className="galeria-img " alt="img-galeria" />
+                <img loading='lazy' src={img.image} className="galeria-img " alt="img-galeria" />
 
                 <div onClick={() => getImg(img.image)} className='absolute w-full h-[100%] top-0 bottom-0 right-0 cursor-pointer 
                      bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 duration-200 '

@@ -35,7 +35,7 @@ const Nosotros = () => {
             }
          <div className="w-full rounded-lg">
                 {/* image */}
-             <img src={keramikoeImg} alt="sad" className=" rounded-lg object-cover keramikoe__img mb-6" />
+             <img loading='lazy' src={keramikoeImg} alt="sad" className=" rounded-lg object-cover keramikoe__img mb-6" />
         </div>
         </section>
 
