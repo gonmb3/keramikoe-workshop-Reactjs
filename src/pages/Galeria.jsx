@@ -19,7 +19,9 @@ const Ventas = () => {
   }
 
   return (
-    <>    { /* GALLERY MODAL START*/}
+
+    <>           { /* GALLERY MODAL START*/}
+                                   { /* open modal by class */}
       <div className={modal ? "modal open" : "modal"}>
         <RiCloseCircleFill onClick={() => setModal(false)} className='icon' size={32} />
         <img src={tempImg} alt="img-ventas" />
@@ -45,7 +47,7 @@ const Ventas = () => {
               <div 
               key={img.id} className="col relative  m-2">
 
-                <img loading='lazy' src={img.image} className="galeria-img " alt="img-galeria" />
+                <img  src={img.image} className="galeria-img " alt="img-galeria" />
 
                 <div onClick={() => getImg(img.image)} className='absolute w-full h-[100%] top-0 bottom-0 right-0 cursor-pointer 
                      bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 duration-200 '

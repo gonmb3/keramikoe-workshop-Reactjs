@@ -1,5 +1,5 @@
 .common__section{
-    background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.297)),url("/src/assets/img/bg-coomon-section.jpg") no-repeat center ;
+    background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.297)),url("/src/assets/img/bg-coomon-section.png") no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
