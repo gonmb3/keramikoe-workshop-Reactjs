@@ -14,8 +14,6 @@ const Contacto = () => {
             id="contacto" className='global-container w-full bg-gray-100 '>
 
             <div
-                data-aos="fade-up"
-                data-aos-delay="300"
                 className="px-5 pt-10">
                 <div className="pt-10 mb-10">
                     <h3 className='font-bold text-3xl text-gray-900'>Contacta con nosotros!</h3>

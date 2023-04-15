@@ -29,7 +29,6 @@ const Ventas = () => {
 
       <section id="galeria" className="global-container bg-gray-200 section__ventas">
         <h1
-        data-aos="fade-right"
           className="md:text-4xl text-[25px] text-yellow-500 text-center pt-10 font-bold ">
           Galeria
           <div className='line mx-auto'></div>
@@ -44,7 +43,6 @@ const Ventas = () => {
             imagesData.map((img) => (
 
               <div 
-              data-aos="fade-up"
               key={img.id} className="col relative  m-2">
 
                 <img src={img.image} className="galeria-img " alt="img-galeria" />
@@ -63,13 +61,11 @@ const Ventas = () => {
 
 
         <div
-        data-aos="fade-right"
           className='text-center mb-3 '>
-          <small className='text-gray-600'>Consultá por nuestras piezas disponibles y por encargo...</small>
+          <small className='text-gray-600'>Consultá por nuestras piezas disponibles y por encargo.</small>
         </div>
 
         <div
-          data-aos="fade-left"
           className='w-full text-center pb-10'
         >
 

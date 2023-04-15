@@ -50,7 +50,7 @@ const FormularioContacto = () => {
         }
     })
     /*Validation Formik/Yup end-----------*/
-    console.log(values)
+
 
     return (
         <>
@@ -120,7 +120,7 @@ const FormularioContacto = () => {
                          bg-gray-900 transition-all '
                     />
                             {/* SUCCESS MESSAGE / FORMIK YUP VALIDATION ------*/ }
-                      {successMessage &&  <p className='text-[12px] bg-green-600 text-white p-2 flex gap-2 '><RiMailSendLine size={20}/>Mensaje enviado</p>   }
+                      {successMessage &&  <p className='text-[12px] bg-yellow-500 text-white p-2 flex gap-2 '><RiMailSendLine size={20}/>Mensaje enviado</p>   }
                     </div>
                     
                 </div>

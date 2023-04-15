@@ -22,10 +22,9 @@ export const nosotrosData = [
     {
         titleOne: "Nuestra",
         titleTwo: "Historia",
-        textOne: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
-        textTwo: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
-        textThree: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
-        textFour: " Lorem ipsum dolor sit, amet consectetur adipisicing elitVero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisicing elit.",
+        textOne: "Desde hace más de cuarenta años, Keramiko’e se dedica a la producción de piezas de cerámica artesanal y a su enseñanza.",
+        textTwo: "Marcello Perotti continúa el legado de Aldo Perotti y Margarita Courtoise como segunda generación de ceramistas, aportando toda su experiencia de vida, oficio y arte.",
+        textThree: "La producción abarca cerámica utilitaria, decorativa y artística, ya sea por moldeado o por alfarería, engobado y esmaltado, creaciones en técnica tradicional, gres y rakú.",
     }
 ]
 
@@ -114,9 +113,10 @@ export const tallerData = [
         titleOne: "Clases de Cerámica",
         titleTwo: "Moldeada y Alfafería",
         img: tallerImg,
-        textOne: "Lorem ipsum dolor sit, amet conse",
-        textTwo: "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetur adipisig.",
-        textThree: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero accusantium magni hic assumenda, dolorum amet quas disrem ipsum dolor sit, amet consectetu.",
+        textOne: "Explorar el ilimitado universo creativo",
+        textTwo: "Nuestros cursos son diseñados en función de los intereses de cada persona, lo que significa que no hay un calendario o programa, sino que son absolutamente personalizados, orientados a jóvenes y adultos.",
+        textThree: "Ofrecemos talleres libres, temáticos y de adiestramiento en torno. ",
+        textFour : "No dudes en consultar! "
        
     }
 ]
