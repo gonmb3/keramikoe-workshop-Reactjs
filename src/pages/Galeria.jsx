@@ -10,7 +10,7 @@ import "../styles/galeria.css"
 
 const Galeria = () => {
 
-  $(document).ready(function() {
+  $(document).ready(function($) {
     $('.popup-gallery').magnificPopup({
       delegate: 'a',
       type: 'image',
