@@ -8,27 +8,31 @@ import { FaSearchPlus } from "react-icons/fa"
 import "../styles/galeria.css"
 
 
-const Ventas = () => {
-  /*MODAL STATE*/
-  const [modal, setModal] = useState(false);
-  const [tempImg, setTempImg] = useState("");
+const Galeria = () => {
 
-  const getImg = (img) => {
-    setTempImg(img)
-    setModal(true)
-  }
+  $(document).ready(function() {
+    $('.popup-gallery').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+          return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+        }
+      }
+    });
+  });
 
   return (
 
-    <>           { /* GALLERY MODAL START*/}
-                                   { /* open modal by class */}
-      <div className={modal ? "modal open" : "modal"}>
-        <RiCloseCircleFill onClick={() => setModal(false)} className='icon' size={32} />
-        <img src={tempImg} alt="img-ventas" />
-
-      </div>
-      { /* GALLERY MODAL END*/}
-
+    <>    
       <section id="galeria" className="global-container bg-gray-200 section__ventas">
         <h1
           className="md:text-4xl text-[25px] text-yellow-500 text-center pt-10 font-bold ">
@@ -44,16 +48,17 @@ const Ventas = () => {
           {
             imagesData.map((img) => (
 
+              
+              
               <div 
-              key={img.id} className="col relative  m-2">
+              key={img.id} className="col relative  m-2 popup-gallery" > 
 
-                <img  src={img.image} className="galeria-img " alt="img-galeria" />
+                <a href={img.image}>
+                    <img  src={img.image} className="galeria-img  " alt="img-galeria" />
+                
+                </a>
 
-                <div onClick={() => getImg(img.image)} className='absolute w-full h-[100%] top-0 bottom-0 right-0 cursor-pointer 
-                     bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 duration-200 '
-                >
-                  <FaSearchPlus size={35} className="z-10 font-bolder text-white" />
-                </div>
+                
               </div>
 
             ))
@@ -84,11 +89,10 @@ const Ventas = () => {
 
 
       </section>
-
     </>
 
 
   )
 }
 
-export default Ventas
+export default Galeria
