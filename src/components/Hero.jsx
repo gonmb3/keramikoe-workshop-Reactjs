@@ -13,7 +13,7 @@ const Hero = () => {
 
         <h1
           className="md:text-6xl text-4xl text-center font-semibold text-white drop-shadow-md shadow-black md:pb-4 pb-5 leading-tight">
-          Bienvenidos a <span className="text-yellow-400">KERAMIKO´E</span>!
+          Bienvenidos a <span className="text-teal-800">KERAMIKO´E</span>!
         </h1>
 
         <p
@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
 
         <a
-          href="#nosotros" className="slider-btn btn-slide-top hover:bg-gray-700 hover:text-white">
+          href="#nosotros" className="hero-btn btn-slide-top hover:bg-teal-700 hover:text-white">
           Ver
         </a>
 

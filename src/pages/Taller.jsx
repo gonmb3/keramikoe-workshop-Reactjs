@@ -1,12 +1,12 @@
 import { tallerData } from "../assets/data"
-import "../styles/taller.css"
+
 
 const Taller = () => {
 
 
     return (
         <section
-            id='taller' className='global-container flex items-center justify-center mt-10 px-10 mb-11 overflow-hidden'>
+            id='taller' className='global-container flex-col-reverse md:flex items-center justify-center  px-10 my-20 overflow-hidden'>
             {tallerData.map((text, index) => (
                 <div key={index} className="lg:flex items-center ">
                     <div
@@ -17,13 +17,13 @@ const Taller = () => {
 
                     <div
                     key={index}
-                        className="lg:w-4/6 w-[100%] pb-16 md:pl-5">
+                        className="lg:w-4/6 w-[100%]  md:pl-5">
                                       {/* title */}   
-                        <h3 className='text-center md:text-[44px] text-4xl uppercase  text-gray-700 pt-8 leading-snug'>
-                            <span className=' font-bold  text-yellow-500 '>
+                        <h3 className='text-center md:text-[44px] text-4xl uppercase  text-gray-700  pt-8 leading-snug'>
+                            <span className=' font-bold  text-cyan-800 drop-shadow-md '>
                                 {text.titleOne} {" "}
                             </span>
-                            <p className="text-yellow-500 font-semibold drop-shadow-md ">{text.titleTwo}  </p>
+                            <p className="text-cyan-800 font-semibold drop-shadow-md ">{text.titleTwo}  </p>
                         </h3>
                           {/* text */}
                         <p className='text-center pt-5 text-2xl font-bold text-gray-400'>

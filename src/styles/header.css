@@ -1,6 +1,6 @@
 
 
-/*BTN EFFECT*/
+/*LINKS NAV EFFECT*/
 .btn-slide-left {
     position: relative;
     z-index: 1;
@@ -12,7 +12,7 @@
   }
   .btn-slide-left::after {
     content: "";
-    border-bottom:1.3px solid rgb(235, 178, 34); 
+    border-bottom:1.3px solid rgb(10, 99, 102); 
     position: absolute;
     z-index: -1;
     display: block;

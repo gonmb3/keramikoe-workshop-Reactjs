@@ -36,11 +36,11 @@ const Header = () => {
 
     return (
 
-        <div className={color ? 'w-full  global-container h-20 bg-gray-700 flex justify-between items-center fixed  left-0 right-0 overflow-hidden top-0 z-50 '
+        <div className={color ? 'w-full   global-container h-20 bg-gray-700 flex justify-between items-center fixed  left-0 right-0 overflow-hidden top-0 z-50 '
          : 'w-full  global-container h-20 bg-transparent flex justify-between items-center  overflow-hidden fixed  left-0 right-0 top-0 z-50'}>
            { /* logo */}
            <a href="#inicio">  <h1 className='md:text-3xl text-[21px] logo  font-bold text-white cursor-pointer'>
-            <span className="text-yellow-400">K</span>ERAMIKO´E</h1>
+            <span className="text-teal-800">K</span>ERAMIKO´E</h1>
           </a>
 
           { /* nav component */}
@@ -48,7 +48,9 @@ const Header = () => {
 
             <div className="flex items-center cursor-pointer">
 
-                <a href="https://www.instagram.com" className="mr-2" target="noopener noreferrer"><img src={instagramLogo} alt="instagram" style={{width:"35px"}}/> </a>
+                <a href="https://www.instagram.com" className="mr-2" target="noopener noreferrer">
+                    <img src={instagramLogo} alt="instagram" style={{width:"35px"}}/>
+             </a>
 
                 <div onClick={handleNav} className="block lg:hidden">  {/*MOBILE MENU ICONS OPEN AND CLOSE ------*/}
                     {

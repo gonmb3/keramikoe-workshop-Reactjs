@@ -115,12 +115,12 @@ const FormularioContacto = () => {
                           <input
                         type="submit"
                         value="ENVIAR"
-                        className='hover:bg-yellow-600 text-center rounded
+                        className='hover:bg-cyan-800 text-center rounded
                          p-2 px-3  cursor-pointer text-white uppercase font-medium
                          bg-gray-900 transition-all '
                     />
                             {/* SUCCESS MESSAGE / FORMIK YUP VALIDATION ------*/ }
-                      {successMessage &&  <p className='text-[12px] bg-yellow-500 text-white p-2 flex gap-2 '><RiMailSendLine size={20}/>Mensaje enviado</p>   }
+                      {successMessage &&  <p className='text-[12px] bg-cyan-800 text-white p-2 flex gap-2 '><RiMailSendLine size={20}/>Mensaje enviado</p>   }
                     </div>
                     
                 </div>
