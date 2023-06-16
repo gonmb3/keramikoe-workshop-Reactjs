@@ -1,16 +1,14 @@
 // gallery data images
 import GalleryImg1 from './img/1.jpg';
 import GalleryImg2 from './img/2.jpg';
-import GalleryImg3 from './img/3.jpg';
 import GalleryImg4 from './img/4.jpg';
 import GalleryImg5 from './img/5.jpg';
 import GalleryImg6 from './img/6.jpg';
 import GalleryImg7 from './img/7.jpg';
 import GalleryImg8 from './img/8.jpg';
-import GalleryImg9 from './img/9.jpg';
-import GalleryImg10 from './img/10.jpg';
+
 import GalleryImg11 from './img/11.jpg';
-import GalleryImg12 from './img/12.jpg';
+
 // taller data image
 import tallerImg from "../assets/img/Talleres.jpg"
 
@@ -43,10 +41,6 @@ const imagesData = [
         "image": GalleryImg11
     },
     {
-        "id": 9,
-        "image": GalleryImg9
-    },
-    {
         "id": 5,
         "image": GalleryImg1
     },
@@ -66,18 +60,7 @@ const imagesData = [
         "id": 4,
         "image": GalleryImg4
     },
-    {
-        "id": 10,
-        "image": GalleryImg10
-    },
-    {
-        "id": 11,
-        "image": GalleryImg3
-    },
-    {
-        "id": 12,
-        "image": GalleryImg12
-    },
+   
   
 
 ]
