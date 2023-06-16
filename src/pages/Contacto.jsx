@@ -16,14 +16,14 @@ const Contacto = () => {
             <div
                 className="px-5 pt-10">
                 <div className="pt-10 mb-10">
-                    <h3 className='font-bold text-3xl text-cyan-800'>Contacta con nosotros!</h3>
+                    <h3 className='font-bold text-3xl text-yellow-500'>Contacta con nosotros!</h3>
                     <p className="text-gray-400 text-[14px] pt-2">Te responderemos con la mayor brevedad posible...</p>
                 </div>
 
                 <div className="flex justify-between contacto" >
 
                     <div className="flex flex-col gap-1">
-                        <h6 className="font-bold mb-1 text-cyan-800">DIRECCIÓN</h6>
+                        <h6 className="font-bold mb-1 text-gray-800">DIRECCIÓN</h6>
                         <p className="text-gray-400  text-[14px] ">Vázquez 1474 </p>
                         <p className="text-gray-400  text-[14px] mb-2">entre Colonia y Mercedes</p>
                         <p className="flex text-gray-400  text-[14px] "><FiMail size={16} className="mr-2" /> keramikoe@hotmail.com</p>

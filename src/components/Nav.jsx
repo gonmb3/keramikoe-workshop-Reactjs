@@ -7,7 +7,7 @@ const Nav = () => {
    {
        navData.map((link,index) => (
 
-           <li key={index} className='p-3 text-white btn-slide-left hover:text-teal-800 text-1xl'>
+           <li key={index} className='p-3 text-white btn-slide-left hover:text-yellow-600 text-1xl'>
                <a href={link.href} >{link.text}</a>
            </li>
        ))

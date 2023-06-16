@@ -12,7 +12,7 @@
   }
   .btn-slide-left::after {
     content: "";
-    border-bottom:1.3px solid rgb(10, 99, 102); 
+    border-bottom:1.3px solid rgb(204, 146, 0); 
     position: absolute;
     z-index: -1;
     display: block;

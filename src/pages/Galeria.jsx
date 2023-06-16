@@ -33,7 +33,7 @@ const Galeria = () => {
     <>    
       <section id="galeria" className="global-container bg-gray-200 section__ventas">
         <h1
-          className="md:text-4xl text-[25px] text-cyan-800 text-center pt-10 font-bold ">
+          className="md:text-4xl text-[25px] text-yellow-500 text-center pt-10 font-bold ">
           Galeria
           <div className='line mx-auto'></div>
         </h1>

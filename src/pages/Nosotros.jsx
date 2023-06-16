@@ -14,7 +14,7 @@ const Nosotros = () => {
                         <h1
                             className='text-start md:text-4xl text-[25px] text-gray-700 py-2 border-b-4 border-gray-200 inline-block'>
                             {text.titleOne} 
-                            <span className='font-bold  text-cyan-800'> {text.titleTwo} </span>
+                            <span className="font-bold  text-yellow-500"> {text.titleTwo} </span>
                         </h1>
                         <div className="mt-5 line-through leading-8">
                             <p className="text-gray-400 text-[15px] text-justify pb-2">

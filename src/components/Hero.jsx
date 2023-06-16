@@ -13,7 +13,7 @@ const Hero = () => {
 
         <h1
           className="md:text-6xl text-4xl text-center font-semibold text-white drop-shadow-md shadow-black md:pb-4 pb-5 leading-tight">
-          Bienvenidos a <span className="text-teal-800">KERAMIKO´E</span>!
+          Bienvenidos a <span className="text-yellow-500">KERAMIKO´E</span>!
         </h1>
 
         <p
@@ -22,14 +22,16 @@ const Hero = () => {
         </p>
 
         <a
-          href="#nosotros" className="hero-btn btn-slide-top hover:bg-teal-700 hover:text-white">
+          href="#nosotros" className="hero-btn btn-slide-top hover:bg-yellow-600 hover:text-white">
           Ver
         </a>
 
       </div>
 
       {/*-----WHATSAPP IMAGE  */}
-      <a href="https://wa.me/59809111891" target="noopener noreferrer">  <img src={whatsappImg} alt="" className="md:w-[40px] w-[38px] bottom-6 md:right-5 right-2  fixed z-10" /></a>
+      <a href="https://wa.me/59809111891" target="noopener noreferrer">
+          <img src={whatsappImg} alt="" className="md:w-[40px] w-[38px] bottom-6 md:right-5 right-2  fixed z-10" />
+      </a>
     </div>
   )
 }
